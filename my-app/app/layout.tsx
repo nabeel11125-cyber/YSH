@@ -15,8 +15,8 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "BharatEdge | Grow With Us - Business Consultancy & Startup Support",
-  description: "Official replica of BharatEdge - Providing premium business registration, startup funding (CGTMSE, SISFS), and compliance services.",
+  title: "YSH Solution | Grow With Us - Business Consultancy & Startup Support",
+  description: "Official replica of YSH Solution - Providing premium business registration, startup funding (CGTMSE, SISFS), and compliance services.",
 };
 
 export default function RootLayout({

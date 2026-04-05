@@ -24,7 +24,7 @@ export const StickyNavbar = () => {
     >
       <div className="container px-6 flex justify-between items-center">
         <Link href="/" className="font-outfit text-2xl font-black tracking-tighter text-white group">
-          Bharat<span className="text-[#f1592a] transition-all group-hover:text-white">Edge</span>
+          YSH<span className="text-[#f1592a] transition-all group-hover:text-white"> Solution</span>
         </Link>
 
         {/* Desktop Menu */}

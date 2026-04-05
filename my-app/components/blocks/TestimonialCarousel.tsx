@@ -18,7 +18,7 @@ const testimonials = [
   },
   {
     name: "Adarsh Singhania",
-    text: "I had a fantastic experience with BharatEdge... they guided me through every step of the Startup India certification process with absolute professionalism.",
+    text: "I had a fantastic experience with YSH Solution... they guided me through every step of the Startup India certification process with absolute professionalism.",
     rating: 5,
     role: "Founder",
   },

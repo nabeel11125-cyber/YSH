@@ -80,7 +80,7 @@ export const ConsultationForm = () => {
                 </div>
                 <div>
                   <p className="font-outfit text-sm font-semibold uppercase tracking-widest text-slate-500">Email Us</p>
-                  <p className="text-xl font-bold text-white tracking-tight">hello@bharat-edge.com</p>
+                  <p className="text-xl font-bold text-white tracking-tight">support@ysh-solution.com</p>
                 </div>
               </div>
             </div>

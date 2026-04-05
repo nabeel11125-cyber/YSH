@@ -19,7 +19,7 @@ const footerLinks = {
   contacts: [
     { label: "Chandigarh Office", value: "SCO 3, 2nd floor, Sector 26", icon: "📍" },
     { label: "Ahmedabad Office", value: "406-407, iSquare, Science City Road", icon: "📍" },
-    { label: "Email Support", value: "hello@bharat-edge.com", icon: "📧" },
+    { label: "Email Support", value: "support@ysh-solution.com", icon: "📧" },
     { label: "Phone Support", value: "+91 82384 41111", icon: "📞" },
   ],
 };
@@ -34,7 +34,7 @@ export const ModernFooter = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 mb-20">
           <div className="lg:col-span-1">
             <h2 className="mb-6 font-outfit text-2xl font-bold tracking-tighter text-white">
-              Bharat<span className="text-[#f1592a]">Edge</span>
+              YSH<span className="text-[#f1592a]"> Solution</span>
             </h2>
             <p className="mb-8 font-inter text-slate-400 leading-relaxed max-w-xs">
               Sada Grow Karo. Your trusted partner in business consultancy, startup scaling, and government funding excellence.
@@ -93,7 +93,7 @@ export const ModernFooter = () => {
 
         <div className="pt-12 border-t border-white/5 flex flex-col md:flex-row justify-between items-center gap-6">
           <p className="font-inter text-xs text-slate-500 tracking-widest font-bold uppercase">
-            © 2024 Bharat Edge. All Rights Reserved.
+            © 2024 YSH Solution. All Rights Reserved.
           </p>
           <div className="flex gap-8">
             {["English", "Punjabi"].map((lang, i) => (
