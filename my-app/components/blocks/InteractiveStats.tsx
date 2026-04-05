@@ -1,7 +1,6 @@
 "use client";
 
 import React from "react";
-import { cn } from "@/lib/utils";
 
 const stats = [
   {
@@ -52,7 +51,7 @@ export const InteractiveStats = () => {
         
         <div className="mt-20 text-center">
           <p className="font-outfit text-xl italic text-slate-400">
-            "Sada Grow Karo - Leading the future of startup innovation."
+            &quot;Sada Grow Karo - Leading the future of startup innovation.&quot;
           </p>
         </div>
       </div>

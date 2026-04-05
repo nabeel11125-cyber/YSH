@@ -714,7 +714,7 @@ export const Main = () => {
                             <div className={`card testimonial-card h-100 ${activeSection === 'testimonial1' ? 'active' : ''}`} onClick={() => handleSectionClick('testimonial1')} style={{ cursor: 'pointer' }}>
                                 <div className="card-body">
                                     <div className="rating-stars">★★★★★</div>
-                                    <p className="testimonial-text">"YSH Solution helped us with our Startup India certification and we were super impressed with their team. Completed in just 2 days!"</p>
+                                    <p className="testimonial-text">&quot;YSH Solution helped us with our Startup India certification and we were super impressed with their team. Completed in just 2 days!&quot;</p>
                                     <p className="testimonial-author">Shilpi Sengupta</p>
                                 </div>
                             </div>
@@ -723,7 +723,7 @@ export const Main = () => {
                             <div className={`card testimonial-card h-100 ${activeSection === 'testimonial2' ? 'active' : ''}`} onClick={() => handleSectionClick('testimonial2')} style={{ cursor: 'pointer' }}>
                                 <div className="card-body">
                                     <div className="rating-stars">★★★★★</div>
-                                    <p className="testimonial-text">"We had a fantastic experience working with YSH Solution for our startup's registration and funding needs. Incredibly prompt and efficient."</p>
+                                    <p className="testimonial-text">&quot;We had a fantastic experience working with YSH Solution for our startup&apos;s registration and funding needs. Incredibly prompt and efficient.&quot;</p>
                                     <p className="testimonial-author">Tirthanjan Banerjee</p>
                                 </div>
                             </div>
@@ -732,7 +732,7 @@ export const Main = () => {
                             <div className={`card testimonial-card h-100 ${activeSection === 'testimonial3' ? 'active' : ''}`} onClick={() => handleSectionClick('testimonial3')} style={{ cursor: 'pointer' }}>
                                 <div className="card-body">
                                     <div className="rating-stars">★★★★★</div>
-                                    <p className="testimonial-text">"Their service is incredibly fast and the team is very humble and supportive. The whole process was smooth and professional."</p>
+                                    <p className="testimonial-text">&quot;Their service is incredibly fast and the team is very humble and supportive. The whole process was smooth and professional.&quot;</p>
                                     <p className="testimonial-author">Adarsh Singhania</p>
                                 </div>
                             </div>

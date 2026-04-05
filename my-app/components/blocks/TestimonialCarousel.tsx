@@ -50,7 +50,7 @@ export const TestimonialCarousel = () => {
               </div>
               
               <p className="mb-8 font-inter text-lg leading-relaxed text-slate-300 italic group-hover:text-white transition-colors duration-300">
-                "{t.text}"
+                &quot;{t.text}&quot;
               </p>
               
               <div>
@@ -64,7 +64,7 @@ export const TestimonialCarousel = () => {
               
               {/* Floating Quote Icon */}
               <div className="absolute top-10 right-10 text-8xl font-serif text-[#f1592a]/10 group-hover:text-[#f1592a]/20 transition-all pointer-events-none">
-                "
+                &quot;
               </div>
             </div>
           ))}

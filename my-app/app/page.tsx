@@ -24,7 +24,7 @@ export default function Home() {
                 Legacy of Trust
               </span>
               <h2 className="mb-8 font-outfit text-4xl font-bold tracking-tight text-white md:text-5xl lg:text-6xl">
-                Ahmedabad's Leading <span className="text-[#f1592a]">Business Consultancy</span>
+                Ahmedabad&apos;s Leading <span className="text-[#f1592a]">Business Consultancy</span>
               </h2>
               <p className="mb-6 font-inter text-lg text-slate-400 leading-relaxed">
                 We are an Ahmedabad-based consultancy firm with over 40+ years of combined experience in guideing startups and MSMEs toward financial and regulatory excellence.
