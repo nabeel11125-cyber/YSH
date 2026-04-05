@@ -3,6 +3,7 @@
 import React, { useState } from "react";
 import { GlassButton } from "../ui/GlassButton";
 import { SectionHeader } from "../ui/SectionHeader";
+import { allServices } from "@/lib/services-data";
 
 export const ConsultationForm = () => {
   const [formData, setFormData] = useState({
@@ -19,15 +20,6 @@ export const ConsultationForm = () => {
     setStatus("submitting");
     setTimeout(() => setStatus("success"), 1500);
   };
-
-  const services = [
-    "Business Incorporation",
-    "Startup Certification",
-    "Seed Funding & Loans",
-    "Legal Protection",
-    "Government Grants (Nidhi)",
-    "Branding & Digital Marketing",
-  ];
 
   if (status === "success") {
     return (
@@ -133,9 +125,9 @@ export const ConsultationForm = () => {
                   value={formData.service}
                   onChange={(e) => setFormData({ ...formData, service: e.target.value })}
                 >
-                  <option value="" className="bg-slate-900">Choose a service</option>
-                  {services.map((s, i) => (
-                    <option key={i} value={s} className="bg-slate-900">
+                  <option value="" className="bg-slate-900 text-xs font-bold uppercase tracking-widest">Choose a service</option>
+                  {allServices.map((s, i) => (
+                    <option key={i} value={s} className="bg-slate-900 text-sm">
                       {s}
                     </option>
                   ))}
